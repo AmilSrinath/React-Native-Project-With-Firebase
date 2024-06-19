@@ -39,7 +39,7 @@ export default function Header() {
             style={{
               fontWeight: "bold",
               fontSize: 18,
-              fontFamily: "outfit-regular",
+              fontFamily: "outfit",
               color: "#fff",
             }}
           >
@@ -62,8 +62,9 @@ export default function Header() {
       }}>
         <AntDesign name="search1" size={24} color={Colors.PRIMARY} />
         <TextInput placeholder="Search" style={{
-            fontFamily: "outfit-regular",
-            fontSize: 16
+            fontFamily: "outfit",
+            fontSize: 16,
+            width: "87%"
         }}/>
       </View>
     </View>

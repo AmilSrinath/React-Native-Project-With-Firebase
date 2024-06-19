@@ -17,7 +17,6 @@ export default function Slider() {
     const querySnapshot = await getDocs(q);
 
     querySnapshot.forEach((doc) => {
-      console.log(doc.data());
       setSliderList((prev) => [...prev, doc.data()]);
     });
   };
@@ -28,7 +27,7 @@ export default function Slider() {
         style={{
           color: Colors.PRIMARY,
           fontSize: 20,
-          fontFamily: "Poppins-Medium",
+          fontFamily: "outfit",
           paddingLeft: 20,
           marginTop: 20,
           marginBottom: 5

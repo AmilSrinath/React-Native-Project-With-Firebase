@@ -40,7 +40,7 @@ export default function LoginScreen() {
           source={require("./../assets/images/flat-design-cryptocurrencies-app-template.png")}
           style={{
             width: 240,
-            height: 500,
+            height: 400,
             borderRadius: 20,
             borderWidth: 3,
             borderColor: "black",
